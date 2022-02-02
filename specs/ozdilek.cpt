@@ -1,0 +1,36 @@
+# Mağazadan alışveriş alanını kontrol et
+* "6" saniye kadar bekle
+* id "com.ozdilek.ozdilekteyim:id/textView" li elementi bul ve "Mağazadan Alışveriş" alanını kontrol et
+* "3" saniye kadar bekle
+
+#Alısverise baslaya tıkla
+* id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemente tıkla
+* "2" saniye kadar bekle
+
+#Anasayfada oldugunu kontrol et
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayStore']/android.widget.TextView" li elementi bul ve "Mağaza" alanını kontrol et
+* "3" saniye kadar bekle
+
+#Kategoriye tıkla
+* id "com.ozdilek.ozdilekteyim:id/nav_categories" li elemente tıkla
+* "5" saniye kadar bekle
+
+#Kategorilerde oldugunu kontrol et
+* xpath "//android.widget.LinearLayout[@content-desc='Kategoriler']/android.widget.TextView" li elementi bul ve "Kategoriler" alanını kontrol et
+* "5" saniye kadar bekle
+
+#Indexe gore tıkla
+* Listeye indexe gore tiklama "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerCategories']/android.widget.RelativeLayout/android.widget.TextView"
+* "5" saniye kadar bekle
+
+#Sayfayı asagıya scroll et
+* Sayfayi kaydir "600" "600" "1782" "600" "5000"
+* "5" saniye kadar bekle
+
+#xpath li elemana tıkla <xpath>
+* xpath <xpath> li elemente tıkla
+* "5" saniye kadar bekle
+
+#4 saniye bekle
+*"4" saniye kadar bekle
+
